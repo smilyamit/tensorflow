@@ -1,2 +1,9 @@
 #1
 To check the default environment location in mac: /opt/anaconda3/envs/tf. (make sure u r in default position in terminal)
+#2
+Run the following commands to setup your environment:
+
+conda create -n tensorflow python=3.5
+source activate tensorflow
+conda install pandas matplotlib jupyter notebook scipy scikit-learn
+pip install tensorflow
