@@ -18,3 +18,34 @@ conda create -n tensorflow python=3.5
 activate tensorflow
 conda install pandas matplotlib jupyter notebook scipy scikit-learn
 pip install tensorflow
+
+#3 tf.constant
+All eager `tf.Tensor` values are immutable (in contrast to
+`tf.Variable`). There is nothing especially _constant_ about the value
+returned from `tf.constant`. This function it is not fundamentally different
+from `tf.convert_to_tensor`.
+
+
+#4
+TensorFlow Linear Functions
+y = xW + b   # y-output, x- input, W-weights, b-bias
+
+Weights and Bias in TensorFlow
+-The goal of training a neural network is to modify weights and biases to best predict the labels. 
+In order to use weights and bias, you'll need a Tensor that can be modified. This leaves out tf.placeholder() and
+tf.constant(), 
+-since those Tensors can't be modified. This is where tf.Variable class comes in.
+#5
+randn means randomly normally distributed no
+randint means randomly uniformly distributed no
+
+
+
+
+
+
+
+
+
+
+
