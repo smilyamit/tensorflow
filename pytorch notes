@@ -1,0 +1,7 @@
+#1
+**some commands
+import torch
+print(torch.__version__)
+a = torch.empty(6,3)
+print(a)
+type(a) => torch.Tensor. tensor is nothing but ndarray
