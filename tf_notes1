@@ -31,8 +31,14 @@ tf.constant(),
 randn means randomly normally distributed no
 randint means randomly uniformly distributed no
 
-#6
+#6 SL vs UL vs Semi SL vs RL
 
+SL:      both lable(output) and features (input data) are needed
+UL:      no label, only feature will be given
+Semi SL: for some data label will be given, for some dataset no label, feature will be there
 
+RL:      we learn this optimal action not from a label but from a time-delayed label called a reward.
+        This scalar value tells us whether the outcome of whatever we did was good or bad. Hence, the goal of RL is to 
+        take actions in order to maximize reward.
 
 
