@@ -28,7 +28,7 @@ plt.plot(loss)
 
 
 def gradient_dec():
-    x_ = 0           # x_ is nothing but optimal value, intially it can be any random value
+    x_ = 0           # x_ is nothing but optimal value(Ground truth value), intially it can be any random value
     l_rate = 0.1     # learning_rate is nothing but the weights which will be updated in backward propragation in nn
     
     print(x_)
