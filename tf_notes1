@@ -40,5 +40,16 @@ Semi SL: for some data label will be given, for some dataset no label, feature w
 RL:      we learn this optimal action not from a label but from a time-delayed label called a reward.
         This scalar value tells us whether the outcome of whatever we did was good or bad. Hence, the goal of RL is to 
         take actions in order to maximize reward.
+        
+#7
+-Activation function is only applied to hidden layers
+
+#8 Optimizer based on Gradient Descents Types
+1 Batch gradient descent
+2 Stochaistic Gradient Descent
+3 Gradient Deccent
+4. Minibatch Gradient Descent
+5 Adam Optimizer
+
 
 
