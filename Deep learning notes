@@ -1,0 +1,12 @@
+#1 n-f +1 is a formula to get output of convoluted layer
+eg n = no of inputs in pixels in matrix form eg 6X6
+   f = no of filters eg 3X3. i.e 6-3 = 4
+   
+ # types of padding
+ 1 padding by zero
+ 2 padding by nearest border value
+ ***importance 
+ -> It allows us to design deeper networks. Without padding, reduction in volume size would reduce too quickly.
+ -> Padding actually improves performance by keeping information at the borders
+ -> It's easier to design networks if we preserve the height and width and don't have to worry too much about tensor
+    dimensions when going from one layer to another because dimensions will just "work"
