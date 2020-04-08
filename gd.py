@@ -14,9 +14,11 @@
 #note1 whenever a function is applied on a hidden layrer, it is callled activation fun and when same or diff fun is applied on out
 # layer than it is callled output/probalistic/regress fun 
 
-#1 Forward propagation is just used to get the output
+#1 Forward propagation is just used to get the probable output (y^), real output y we already have (eg linear reg- x1 x2 x3(Input, y(output))
+
 # In backward propagation weights get updated according to error, error is due to diff between observed output and actual output
-#there are lots of example of error fun, common one like mean square root error eg 1/2(y-y^)² = 1/2(y-(wx+b))² 
+#there are lots of example of error fun, common one like mean square root error(err fun) eg 1/2(y-y^)² = 1/2(y-(wa°+b))² 
+# a° is input(like x), Z° is aggregate input (wa° or wx) 
 
 
 import numpy as np
