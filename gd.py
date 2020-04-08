@@ -1,11 +1,18 @@
 #Note when gradient is decreasing than it is called gradient descent
-# learning rate(gamma) is nothing but the weights which will be updated in backward propagation
+# learning rate(gamma or alpha) The learning rate determines how big the step would be on each iteration.
+ # The most commonly used rates are : 0.001, 0.003, 0.01, 0.03, 0.1, 0.3 range( .0001 to 10)
+           
 '''loss fun: Machines learn by means of a loss function. It’s a method of evaluating how well specific algorithm models the 
            given data. If predictions deviates too much from actual results, loss function would cough up a very large number.
            for example loss fun for house pricing models to (y) = (x-5)^2
+           
+           Note loss fun/objective fun/cost fun all are same with diff name
 '''
 #optimization eqn: x_ = x_ - learning rate * gradient(slope) of loss fun
+               #note: x_ is for  updating weights
 #gradient = 1st derivative of loss function (in other word dy/dx i.e dy/dx = m or 1st derivative of given loss fun)
+#note1 whenever a function is applied on a hidden layrer, it is callled activation fun and when same or diff fun is applied on out
+# layer than it is callled output/probalistic/regress fun 
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -28,8 +35,8 @@ plt.plot(loss)
 
 
 def gradient_dec():
-    x_ = 0           # x_ is nothing but optimal value(Ground truth value), intially it can be any random value
-    l_rate = 0.1     # learning_rate is nothing but the weights which will be updated in backward propragation in nn
+    x_ = 0           # x_ is updated weights
+    l_rate = 0.1     # learning_rate is nothing but to increase or decrease the step size for conversion
     
     print(x_)
    
