@@ -19,6 +19,18 @@ activate tensorflow
 conda install pandas matplotlib jupyter notebook scipy scikit-learn
 pip install tensorflow
 
+#3 To deactivate created env
+$ conda deactivate
+
+* to again open
+$ conda activate <name of env>  eg $ conda activate tf
+
+** to know which are the environment created locally
+$ conda info --envs
+
+
+
+
 
 
 
