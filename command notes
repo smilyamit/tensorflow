@@ -1,3 +1,14 @@
+#0 tf 1.x installation guide for windows/mac
+conda create -n tf_1 python=3.5 (to create virtual env)
+activate tf_1                     (activate virtual env)
+pip install -U pip               (to upgrade pip)
+conda install pandas matplotlib jupyter notebook scipy scikit-learn (to install small library)
+conda install -c conda-forge keras  (to install all tf, keras, theano and others)
+
+
+
+
+*** Below installion guid is for tf 2.x
 #1
 To check the default environment location in mac: /opt/anaconda3/envs/tf. (make sure u r in default position in terminal)
 
