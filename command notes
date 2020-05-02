@@ -6,6 +6,8 @@ conda install pandas matplotlib jupyter notebook scipy scikit-learn (to install 
 conda install -c conda-forge keras  (to install all tf, keras, theano and others)
 
 
+# to check the available env
+$ conda info --env
 
 
 *** Below installion guid is for tf 2.x
